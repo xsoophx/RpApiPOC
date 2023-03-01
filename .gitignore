@@ -1,0 +1,17 @@
+# MacOS
+.DS_Store
+
+# Gradle
+.gradle
+
+# Build
+build/
+out/
+
+# IntelliJ
+.idea
+*.iws
+*.iml
+*.ipr
+!.idea/codeStyles/
+!.idea/runConfigurations/
