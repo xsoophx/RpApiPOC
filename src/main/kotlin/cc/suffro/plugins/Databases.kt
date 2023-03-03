@@ -1,5 +1,7 @@
 package cc.suffro.plugins
 
+import cc.suffro.data.User
+import cc.suffro.services.UserService
 import io.ktor.http.*
 import io.ktor.server.application.*
 import io.ktor.server.request.*
