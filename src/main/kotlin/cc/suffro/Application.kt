@@ -1,8 +1,6 @@
 package cc.suffro
 
-import cc.suffro.plugins.configureDatabases
-import cc.suffro.plugins.configureSerialization
-import cc.suffro.routes.userRoutes
+import cc.suffro.user.configureUser
 import io.ktor.server.application.Application
 import io.ktor.server.engine.embeddedServer
 import io.ktor.server.netty.Netty
@@ -17,8 +15,5 @@ fun main() {
 }
 
 private fun Application.rpgModule() {
-    configureSerialization()
-    configureDatabases()
-
-    userRoutes()
+    configureUser()
 }

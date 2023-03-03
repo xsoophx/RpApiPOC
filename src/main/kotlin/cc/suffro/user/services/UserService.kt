@@ -1,7 +1,7 @@
-package cc.suffro.services
+package cc.suffro.user.services
 
-import cc.suffro.data.User
-import cc.suffro.tables.Users
+import cc.suffro.user.data.User
+import cc.suffro.user.tables.Users
 import kotlinx.coroutines.Dispatchers
 import org.jetbrains.exposed.sql.Database
 import org.jetbrains.exposed.sql.SchemaUtils

@@ -1,4 +1,4 @@
-package cc.suffro.data
+package cc.suffro.world.data
 
 import kotlinx.serialization.Serializable
 

@@ -1,4 +1,4 @@
-package cc.suffro.tables
+package cc.suffro.user.tables
 
 import org.jetbrains.exposed.sql.Table
 

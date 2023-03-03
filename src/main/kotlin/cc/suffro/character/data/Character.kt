@@ -1,5 +1,6 @@
-package cc.suffro.data
+package cc.suffro.character.data
 
+import cc.suffro.user.data.User
 import kotlinx.serialization.Serializable
 
 @Serializable
