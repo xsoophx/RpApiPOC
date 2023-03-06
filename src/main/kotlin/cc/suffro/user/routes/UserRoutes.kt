@@ -11,8 +11,8 @@ import io.ktor.server.routing.delete
 import io.ktor.server.routing.get
 import io.ktor.server.routing.post
 import io.ktor.server.routing.put
-import java.lang.NumberFormatException
 import mu.KotlinLogging
+import java.lang.NumberFormatException
 
 const val USER = "user"
 val logger = KotlinLogging.logger {}
@@ -25,7 +25,6 @@ fun Route.getUserById() {
         user?.let {
             call.respond(HttpStatusCode.OK, user)
         } ?: call.respond(HttpStatusCode.NotFound)
-
     }
 }
 
@@ -41,7 +40,6 @@ fun Route.deleteUserById() {
 
 fun Route.updateUserById() {
     put("/$VERSION/$USER/{id}") {
-
     }
 }
 

@@ -1,6 +1,6 @@
 package cc.suffro
 
-import cc.suffro.plugins.configureRouting
+import cc.suffro.user.configureUser
 import io.ktor.client.request.get
 import io.ktor.client.statement.bodyAsText
 import io.ktor.http.HttpStatusCode
@@ -12,7 +12,7 @@ class ApplicationTest {
     @Test
     fun testRoot() = testApplication {
         application {
-            configureRouting()
+            configureUser()
         }
         client.get("/").apply {
             assertEquals(HttpStatusCode.OK, status)
